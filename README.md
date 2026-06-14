@@ -6,19 +6,18 @@ Connect with me: [LinkedIn](https://linkedin.com/in/jennifer-p-sing/)
 📊 Live Interactive Visuals: [[ View Live Tableau Dashboard](https://public.tableau.com/shared/JWHB8XXSC?:display_count=n&:origin=viz_share_link)]
 
 ## 📑 Project Overview
-This project presents a historical data analysis of shifting healthcare and epidemiological trends in Singapore. By combining macro-level mortality data (2006–2022) with multi-decade gender-specific cancer incidence cohorts (1976–2015), this analysis uncovers how rapid modernization, systemic healthcare framework upgrades, an aging demographic, and global crises have fundamentally reshaped Singapore's public health landscape.
+This project looks at how public health and healthcare trends have changed over time in Singapore. By analyzing decades of data—including overall mortality rates from 2006 to 2022 and cancer cases split by gender from 1976 to 2015—the study uncovers how rapid modernization, healthcare upgrades, an aging population, and global crises have reshaped the nation's health landscape.
 
-The final deliverable is an interactive Tableau dashboard designed to transform complex, multi-source government medical registries into clear, actionable visual insights for public health researchers and non-expert stakeholders alike.
+The final deliverable is an interactive Tableau dashboard. It translates data into clear, actionable visual insights built for public health researchers and everyday users alike.
 
 ---
 
 ## ❓ Key Business & Research Questions
-To guide this analysis, the project addresses several core public health and data integrity questions:
-1. **Epidemiological Shifts:** What are the leading causes of death in Singapore, and how have their proportional shares evolved over a 16-year period?
-2. **The Pandemic Inflection:** What underlying demographic dynamics drove the sudden, aggressive acceleration in annual mortality counts between 2020 and 2022?
-3. **Gender-Specific Oncological Trends:** How do long-term incidence rates for specific cancers (Lung, Prostate, Breast, Colorectal) diverge by biological sex, and what behavioral or diagnostic factors explain these trajectories?
-4. **Data Integrity & Governance:** How do administrative, backend system migrations (such as framework transitions) manifest as anomalies in open-source longitudinal datasets, and how can they be structurally explained?
-
+To guide this analysis, the project tackles a few core questions about public health trends and data quality in Singapore:
+1. How have death rates shifted? What are the leading causes of death in Singapore, and how have their shares changed over the last 16 years?
+2. What happened during the pandemic? What specific factors caused the sudden, sharp spike in yearly deaths between 2020 and 2022?
+3. How do cancer trends differ by gender? How do long-term rates for major cancers (Lung, Prostate, Breast, and Colorectal) differ between men and women, and what real-world lifestyle choices or screening habits explain these patterns?
+4. How do government software upgrades or administrative changes show up as anomalies in public data sets, and how can we explain them?
 ---
 
 ## 🛠️ Tech Stack & Data Sources
@@ -61,8 +60,12 @@ To guide this analysis, the project addresses several core public health and dat
 
 ### 4. Colorectal Cancer: The Shared Gender Threat
 
-* **Observation:** Colorectal cancer has climbed steadily to become the Top #2 type of cancer for both genders. *(refer to Figure 2)*
-* **Possible Causes:** 
+* **Observation:** Colorectal (colon and rectum) cancer has become the 2nd most common type of cancer for both genders.  *(refer to Figure 2)*
+* **Possible Causes:**
+  * The high number of colorectal cancer cases in Singapore is heavily tied to rapid urbanisation and modern lifestyles. A population-wide shift toward "Westernized" diets such as heavy on red meat, animal fats, and processed foods, combined with long hours spent sitting at office desks, has significantly driven up baseline risks.
+  * Alarmingly, this is no longer a disease that only affects older generations. Recent clinical data shows a rising trend of early-onset colorectal cancer in adults under 50, which underscores just how deeply these urban dietary shifts and sedentary routines are impacting the community (Singapore General Hospital, 2025).
+  * On a positive note, cancer rates have finally started to level off. This stabilisation is a direct result of Singapore's national screening campaigns, highlighted by the distribution of over 1 million subsidized FIT (Faecal Immunochemical Test) Kits (Singapore Cancer Society, 2026). 
+
 
 ### 5. Pneumonia as a Rising Cause of Death and Singapore’s Aging Demographics
 <img width="1557" height="897" alt="Chart #5 Pneumonia" src="https://github.com/user-attachments/assets/0c7dd621-a08d-4b5a-a1d2-1f2ff69680d8" />
@@ -75,7 +78,7 @@ To guide this analysis, the project addresses several core public health and dat
 ### 6. The Sudden Mortality Spike for 2020-2022
 <img width="1480" height="257" alt="Chart # 4 Total Deaths Over Time" src="https://github.com/user-attachments/assets/3f95f594-be3d-4245-978f-40c7dac4f1cf" />
 
-*Figure 4: Mortality Count Over Time*
+*Figure 4: Total Number of Deaths Over Time*
 
 * **Observation:** Looking at the *Total Deaths Over Time* line chart, Singapore's annual mortality rose predictably by a stable margin year-over-year. However, between 2020 and 2022, the curve aggressively accelerates upward, jumping from 22,054 to 26,891 annual deaths.
 * **Possible Causes:** This vertical spike in the graph directly captures the peak period and aftermath of the global COVID-19 pandemic. As highlighted by the Ministry of Health (2022) in Chart 2, younger age brackets remained completely stable, while deaths were heavily concentrated among aged 70 and above.These individuals were highly vulnerable, and complications from their pre-existing chronic conditions were accelerated during the COVID-19 pandemic period. 
@@ -102,5 +105,7 @@ This reclassification aligns directly with Singapore's national migration from a
 * Kouriefs, C. (2009). Prostate specific antigen through the years. *Archivio Italiano di Urologia e Andrologia*, 81(4), 195-198. https://pubmed.ncbi.nlm.nih.gov/20608139/
 * Ministry of Health, Singapore. (2022). *Report on excess mortality during the COVID-19 pandemic up to June 2022*. https://isomer-user-content.by.gov.sg/3/5c4186c3-8d40-41a5-8908-5f2d54ec1f9b/report-on-excess-mortality-during-the-covid-pandemic-18sep2022.pdf
 * Singapore Cancer Society. (2024). *Breast cancer: Understanding the risk factors*. https://singaporecancersociety.org.sg/breast-cancer/
+* Singapore Cancer Society. (2026). *Colorectal cancer screening & FIT kit Singapore*. https://singaporecancersociety.org.sg/screening-for-colorectal-cancer/
+* Singapore General Hospital. (2025, April 8). *More younger adults diagnosed with early-onset colorectal cancer in Singapore*. https://www.sgh.com.sg/news/patient-care/more-younger-adults-diagnosed-with-early-onset-colorectal-cancer-in-singapore
 * Teo, C. H., Ng, C. J., & Booth, A. (2016). Barriers and facilitators to prostate cancer screening in Asian countries: A systematic review. *Singapore Medical Journal*, 57(3), 121-129. https://pmc.ncbi.nlm.nih.gov/articles/PMC4800713/
 * Young, B. E., Ong, C. W., & Lim, A. Y. (2018). Prognostic factors for mortality due to pneumonia among adults from different age groups in Singapore. *Singapore Medical Journal*, 59(4), 190-198. https://pmc.ncbi.nlm.nih.gov/articles/PMC5915635/
