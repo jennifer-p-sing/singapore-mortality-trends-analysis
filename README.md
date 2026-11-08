@@ -3,7 +3,7 @@
 ---
 Created by: Jennifer Sing  
 Connect with me: [LinkedIn](https://linkedin.com/in/jennifer-p-sing/)  
-📊 Live Interactive Visuals: [[ View Live Tableau Dashboard](https://public.tableau.com/shared/JWHB8XXSC?:display_count=n&:origin=viz_share_link)]
+📊 Live Interactive Visuals: [[ View Live Tableau Dashboard](https://public.tableau.com/views/SingaporeHealthLandscapeMortalityCancerIncidence/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)]
 
 ## 📑 Project Overview
 This project looks at how public health and healthcare trends have changed over time in Singapore. By analyzing decades of data—including overall mortality rates from 2006 to 2022 and cancer cases split by gender from 1976 to 2015—the study uncovers how rapid modernization, healthcare upgrades, an aging population, and global crises have reshaped the nation's health landscape.
